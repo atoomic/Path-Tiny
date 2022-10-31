@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v3
       - run: perl -V
       - name: Install dependencies
-        uses: perl-actions/install-with-cpm@stable
+        uses: perl-actions/install-with-cpm@1ae422a50120ed477b94a40596172799907d3169
         with:
           install: |
                Digest
@@ -84,7 +84,7 @@ jobs:
       - uses: actions/checkout@v3
       - run: perl -V
       - name: Install dependencies
-        uses: perl-actions/install-with-cpm@stable        
+        uses: perl-actions/install-with-cpm@1ae422a50120ed477b94a40596172799907d3169
         with:
           sudo: false
           install: |
